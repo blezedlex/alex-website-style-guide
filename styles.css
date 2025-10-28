@@ -1,0 +1,203 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  border: solid 1px #DFD0B8;
+  padding: 15px;
+}
+
+.lg-mg-button {
+  margin-bottom: 20px;
+}
+
+/* Main Header */
+
+header h1 {
+  font-family: "Bitcount Grid Single", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  background-color: #222831;
+  color: #ffffff;
+  padding: 10px;
+}
+
+/* Global Headers */
+  #colors, #fonts, #text-styles {
+  border: solid 1px #DFD0B8;
+  padding: 20px 10px;
+  }
+
+ 
+  #colors h2, #fonts h2, #text-styles h2 {
+    font-family: "Bitcount Grid Single", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+ /* Colors Section */
+
+.lg-mg-button {
+  margin-bottom: 20px;
+}
+
+  #colors p {
+    font-family: "Bitcount Grid Single", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .color-ref {
+    display: inline-block;
+  }
+
+.color1, .color2, .color3, .color4 {
+ display: inline-block;
+ width: 150px;
+ height: 150px;
+ text-align: center;
+}
+
+#colors .color1 {
+   background-color: #222831;
+   color: #ffffff;
+}
+
+#colors .color2 {
+  background-color: #393E46;
+  color: #ffffff;
+}
+
+#colors .color3 {
+  background-color: #948979;
+  color: #ffffff;
+}
+
+#colors .color4 {
+  background-color: #DFD0B8;
+  color: #000000;
+}
+  
+/* Fonts Section */
+
+/* Roboto Slab Styles */
+
+#fonts .roboto-slab {
+  font-family: 'Roboto Slab', sans-serif;  
+} 
+
+#fonts .roboto-slab h3 {
+  text-decoration: underline;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+#fonts .roboto-slab p {
+  line-height: 1.3;
+  word-spacing: 0.2em;
+  padding: 0 0 10px 0;
+}
+
+ #fonts .roboto-slab p:first-of-type {
+  font-weight: 200;  
+}
+
+#fonts .roboto-slab p:nth-of-type(2) {
+  font-weight: 700;    
+}
+
+#fonts .roboto-slab p:nth-of-type(3) {
+  font-style: italic;    
+}
+
+/* Bitcount Grid Single Styles */
+
+#fonts .bitcount-grid {
+  font-family: 'Bitcount Grid Single', san-serif;
+}
+
+#fonts .bitcount-grid h3 {
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#fonts .bitcount-grid p {
+  line-height: 1.3;
+  word-spacing: 0.2em;
+  padding: 0 0 10px 0;
+}
+
+#fonts .bitcount-grid p:first-of-type {
+  font-weight: 200;  
+}
+
+#fonts .bitcount-grid p:nth-of-type(2) {
+  font-weight: 700;    
+}
+
+#fonts .bitcount-grid p:nth-of-type(3) {
+  font-style: italic;    
+}
+
+/* Noto Sans */
+
+#fonts .noto-sans {
+  font-family: 'Noto Sans', san-serif;
+}
+
+#fonts .noto-sans  h3 {
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#fonts .noto-sans p {
+  line-height: 1.3;
+  word-spacing: 0.2em;
+  padding: 0 0 10px 0;
+}
+
+#fonts .noto-sans p:first-of-type {
+  font-weight: 200;  
+}
+
+#fonts .noto-sans p:nth-of-type(2) {
+  font-weight: 700;    
+}
+
+#fonts .noto-sans p:nth-of-type(3) {
+  font-style: italic;    
+}
+
+/* Text Styles Section */
+
+#text-styles h2:nth-child(2) {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Bitcount Grid Single', sans-serif;
+
+}
+
+#text-styles ul li {
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+
+#text-styles h3{
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Roboto Slab', sans-serif;
+  margin-bottom: 10px; 
+}
+
+#text-styles p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 10px; 
+}
